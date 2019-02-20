@@ -2,6 +2,7 @@
 
 ```go
 import "github.com/jefersondaniel/goutput/output"
+import "github.com/jefersondaniel/goutput/output/resources"
 import "github.com/revel/revel"
 
 type Notification struct {
