@@ -7,5 +7,5 @@ type CollectionResource struct {
 }
 
 func CreateCollectionResource(resourceKey string, data interface{}, transformer interfaces.TransformerInterface) interfaces.ResourceInterface {
-    return &ItemResource{BaseResource{resourceKey, data, transformer}}
+    return &CollectionResource{BaseResource{resourceKey, data, transformer}}
 }
